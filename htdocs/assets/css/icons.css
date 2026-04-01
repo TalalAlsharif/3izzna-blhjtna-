@@ -1,0 +1,32 @@
+/* SVG Icons System */
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.icon svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+/* Icon Definitions */
+.icon-dashboard::before { content: "📊"; }
+.icon-projects::before { content: "≡"; font-size: 20px; font-weight: bold; }
+.icon-random::before { content: "🎲"; }
+.icon-questions::before { content: "❓"; }
+.icon-users::before { content: "👤"; }
+.icon-stats::before { content: "📊"; }
+.icon-logout::before { content: "⎋"; font-size: 18px; }
+.icon-management::before { content: "⚙"; }
+
+/* Better Icons for Navigation */
+.nav-item .icon-dashboard::before { content: "▦"; font-size: 18px; }
+.nav-item .icon-projects::before { content: "▤"; font-size: 18px; }
+.nav-item .icon-questions::before { content: "❓"; }
+.nav-item .icon-users::before { content: "👤"; }
+.nav-item .icon-stats::before { content: "▥"; font-size: 18px; }
